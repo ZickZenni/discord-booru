@@ -6,7 +6,7 @@ This api wrapper allows you to search posts of booru websites and post them usin
 const discordBooru = require('discord-booru')
 
 // Searches on 'yande.re' for posts using tags and rating
-const posts = await booru.getPosts("yandere", %tags%, %rating%);
+const posts = await booru.getPosts("yandere", "genshin_impact", "rating:s");
 
 // Gets a random post from the list before
 const post = await booru.getRandomPost(posts);
@@ -29,7 +29,7 @@ Posts represent images on the booru website you're requesting. You can query the
 const posts = await booru.getPosts(booru, tags, rating);
 ```
 
-Your parameters are passed directly to Danbooru's API:
+Your parameters that are currently avaiable:
 
 * `booru` - The booru website you're requesting
 * `tags` - The tags you're searching for posts

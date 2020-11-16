@@ -29,7 +29,7 @@ Posts represent images on the booru website you're requesting. You can query the
 const posts = await booru.getPosts(booru, tags, rating);
 ```
 
-Your parameters that are currently avaiable:
+Your parameters that are currently available:
 
 * `booru` - The booru website you're requesting
 * `tags` - The tags you're searching for posts

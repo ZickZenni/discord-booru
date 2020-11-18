@@ -83,6 +83,17 @@ Your parameters that are currently available:
 
 * `posts` - The posts you got requested (Array)
 
+### Error Messages
+
+This list contains all current errors, that you're getting when using getErrorMessage
+
+* `BOORU_NOT_FOUND` - Booru not found
+* `LIMIT_MUST_BE_A_NUMBER` - Limit must be a number (getPosts)
+* `NO_POSTS_FOUND` - No posts found (NSFW tags will be ignored, when theres not a giving rating ["e"])
+* `BOORU_NOT_AVAILABLE` - Booru is currently not available, maybe down?
+* `ERROR_JSON_PARSE` - Error parsing JSON, please report this kind of error
+* `UNKNOWN_ERROR` - Unknown error
+
 ### Getting a random post
 
 Now you have you're requested posts. You can get a random post like this:

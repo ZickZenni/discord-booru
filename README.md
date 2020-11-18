@@ -67,7 +67,7 @@ Your parameters that are currently available:
 
 ### Checking if there's an error
 
-If you're requests posts, there is sometimes a error. Error can be found like this:
+If your requested posts, there is sometimes an error. Error can be found like this:
 
 ```js
 if (booru.isErrorMessage(posts)) {
@@ -96,7 +96,7 @@ This list contains all current errors, that you're getting when using getErrorMe
 
 ### Getting a random post
 
-Now you have you're requested posts. You can get a random post like this:
+Now you have your requested posts. You can get a random post like this:
 
 ```js
 const post = await booru.getRandomPost(posts);
@@ -137,7 +137,7 @@ Your parameters that are currently available:
 
 ### Turning your post into an Embed
 
-Now you finally got your post without any NSFW stuff, it's time to post it. This is how:
+Now you finally got your post (without any NSFW stuff), it's time to post it. This is how:
 
 ```js
 const embed = await booru.createEmbed(post, %showSource%, { color: %color%, title: %title%, description: %description%, footer: %footer%});

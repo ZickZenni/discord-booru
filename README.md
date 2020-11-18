@@ -39,6 +39,17 @@ if (await booru.isNSFW(post) && !booru.isChannelNSFW(%channel%))
 const embed = await booru.createEmbed(post, true);
 ```
 
+### Current list
+
+This package is kinda new, so there's only a few of boorus available and these are:
+
+* `hypnohub` - Contains NSFW
+* `konachan` - Contains NSFW
+* `lolibooru` - Contains NSFW
+* `yandere` - Contains NSFW
+* `rule34` - Only NSFW
+* `safebooru` - Safe
+
 ### Getting an array of posts
 
 Posts represent images on the booru website you're requesting. You can query them like this:

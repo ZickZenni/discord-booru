@@ -6,7 +6,7 @@ This api wrapper allows you to search posts of booru websites and post them usin
 const booru = require('discord-booru');
 
 // Searches on "yande.re" for posts
-const posts = await booru.getPosts("yandere", ["genshin_impact], { limit: 200, rating: "s"});
+const posts = await booru.getPosts("yandere", ["genshin_impact"], { limit: 200, rating: "s"});
 
 // Check if theres a error
 if (booru.isErrorMessage(posts)) {
